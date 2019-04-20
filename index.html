@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="myTitle">
+            <h1 id="myHead">Track Meal Calories</h1>
+
+
+        <a href="#">
+                <button id="myClear" type="button" class="clear-btn btn btn-primary btn-block">
+                        <span class="spinner-grow spinner-grow-sm"></span>
+                    <h4>Clear All</h4>
+                    </button>
+        
+        </a>
+
+    </div>
+    <br>
+    <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-header">
+                            <h3 class="card-title">
+                                    Add meal/food item
+                                </h3>
+                    </div>
+                   <div class="card-body">
+                   
+                        <div class="row">
+                            <div class="input-group input-group-lg col-lg-6">
+                                <input type="text" placeholder="add item" id="item-name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            </div>
+        
+        
+                            <div class="input-group input-group-lg col-lg-6">
+                                <input type="number" placeholder="add calories" id="item-calories" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            </div>
+                        </div>
+                        <br>
+                            <div>
+                                    <button class="add-btn btn-primary">
+                                            <i class="fa fa-plus"></i>
+                                            Add Meal
+                                        </button>
+                                         <button class="update-btn btn-warning">
+                                                <i class="fa fa-pencil-alt"></i>
+                                            Update Meal
+                                            </button>
+                                            <button class="delete-btn btn-danger">
+                                                    <i class="fa fa-remove">X</i>
+                                                    Delete Meal
+                                                </button> 
+                                                <button class="back-btn btn-secondary">
+                                                        <i class="fa fa-chevron-circle-left"></i>
+                                                        Back
+                                                    </button>
+                            </div>
+                            
+                                        
+                        
+                  
+                </div>
+            </div>
+            <!-- calorie count-->
+            <h3 class="center-align">Total Calories: <span class="total-calories">0</span></h3>
+            <ul id="item-list" class="collection">
+       
+            </ul>
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
